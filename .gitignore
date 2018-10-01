@@ -1,13 +1,14 @@
-# Node.js modules.
-node_modules
+.DS_Store
+node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# NPM's lockfile.
-# We're using Yarn and it provides it's own lockfile.
-npm-lockfile.json
-
-# Log files.
-*.log
-*.log.*
-
-# Distribution sources.
-dist/
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
